@@ -13,11 +13,6 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-/**
- * TODO
- * - [ ] ImageMagick
- * - [x] ezpublish_dev.yml ?
- */
 class InstallPlatformCommand extends ContainerAwareCommand
 {
     /** @var \Doctrine\DBAL\Connection */
