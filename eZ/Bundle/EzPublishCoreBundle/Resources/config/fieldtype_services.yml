@@ -221,6 +221,7 @@ services:
     # Aggregate converter for XHTML5 output that other converters register to
     # through service tags.
     ezpublish.fieldType.ezrichtext.converter.output.xhtml5:
+        lazy: true
         class: %ezpublish.fieldType.ezrichtext.converter.aggregate.class%
 
     ezpublish.fieldType.ezrichtext.converter.edit.xhtml5:
